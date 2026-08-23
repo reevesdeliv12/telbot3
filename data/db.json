@@ -1,0 +1,72 @@
+{
+  "nextWalletIndex": 3,
+  "users": [
+    {
+      "id": "8371049539",
+      "telegramUserId": "8371049539",
+      "telegramChatId": "8371049539",
+      "firstName": "Abd",
+      "createdAt": "2026-08-19T15:29:32.227Z",
+      "walletIndex": 0,
+      "wallets": {
+        "ethereum": {
+          "address": "0x71EF2Ee0015eDa06202BF08f1F449B8c5dff36f5"
+        },
+        "bnb": {
+          "address": "0x71EF2Ee0015eDa06202BF08f1F449B8c5dff36f5"
+        },
+        "solana": {
+          "address": "CpC4iP44DRWrWMVo5P7bf6ye4Xp4xnKYmLUvsMwfaC3b"
+        }
+      }
+    },
+    {
+      "id": "8348983087",
+      "telegramUserId": "8348983087",
+      "telegramChatId": "8348983087",
+      "username": "anonymous1338937",
+      "firstName": "World wide",
+      "createdAt": "2026-08-19T15:32:59.487Z",
+      "walletIndex": 1,
+      "wallets": {
+        "ethereum": {
+          "address": "0xF5C8A5621B8b878F53115Bb38cb002cD1442C2BB"
+        },
+        "bnb": {
+          "address": "0xF5C8A5621B8b878F53115Bb38cb002cD1442C2BB"
+        },
+        "solana": {
+          "address": "5FzfWWbGeFVDrQWfe9r4KEGGaYge3qAfDo8vftGEgcxM"
+        }
+      }
+    },
+    {
+      "id": "8864708215",
+      "telegramUserId": "8864708215",
+      "telegramChatId": "8864708215",
+      "firstName": "Farm",
+      "lastName": "Uh",
+      "createdAt": "2026-08-23T13:57:01.735Z",
+      "walletIndex": 2,
+      "wallets": {
+        "ethereum": {
+          "address": "0xDD066229c68e5a7B603c937b78c9329427CEca4e"
+        },
+        "bnb": {
+          "address": "0xDD066229c68e5a7B603c937b78c9329427CEca4e"
+        },
+        "solana": {
+          "address": "DKecRrJR9JZXzvzhKZGg2qWhyTkUGmY2PTShA1tiWGC7"
+        }
+      }
+    }
+  ],
+  "deposits": [],
+  "withdrawals": [],
+  "connectedWallets": [],
+  "checkpoints": {
+    "ethereum": 25810737,
+    "bnb": 116458830,
+    "solana": null
+  }
+}
