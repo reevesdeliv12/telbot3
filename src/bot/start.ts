@@ -29,10 +29,10 @@ export async function startCommand(ctx: Context): Promise<void> {
 
    await ctx.reply(
       [
-        "<b>Welcome 👋!!! to copyEntrySync.</b>",
+        "<b>Welcome 👋!!! to copyEntrySync Dashboard.</b>",
         "",
        
-        "Tap Start to open your wallet dashboard and main menu."
+        
       ].join("\n"),
       {
         parse_mode: "HTML",
