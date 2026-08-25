@@ -33,11 +33,7 @@ export async function startCommand(ctx: Context): Promise<void> {
         "",
        
         
-      ].join("\n"),
-      {
-        parse_mode: "HTML",
-        ...Markup.inlineKeyboard([[Markup.button.callback("Start", "welcome:start")]])
-      }
+      ].join("\n")
     );
   if (created) {
     await ctx.reply(
