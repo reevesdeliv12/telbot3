@@ -26,13 +26,12 @@ function walletMessage(user: UserRecord, created: boolean): string {
 
 export async function startCommand(ctx: Context): Promise<void> {
   const { user, created } = await registerOrGetUser(ctx);
-  if (created) {
-    await ctx.reply(
+
+   await ctx.reply(
       [
-        "<b>What can this bot do?</b>",
+        "<b>Welcome 👋!!! to copyEntrySync.</b>",
         "",
-        "CopyEntrySync Bot is a lightning-fast Telegram trading assistant built for serious traders.it lets you autotrade instantly,copytrade topwallets in realtime,and snipe new tokens the moment they launch.with this bot, you never miss an opportunity - fast, precise, and effortless trading all inside telegram",
-        "",
+       
         "Tap Start to open your wallet dashboard and main menu."
       ].join("\n"),
       {
@@ -40,10 +39,20 @@ export async function startCommand(ctx: Context): Promise<void> {
         ...Markup.inlineKeyboard([[Markup.button.callback("Start", "welcome:start")]])
       }
     );
+  if (created) {
+    await ctx.reply(
+      [
+        "<b>What can this bot do?</b>",
+        "",
+        "CopyEntrysync  Bot is a lightning-fast Telegram trading assistant built for serious traders.it lets you autotrade instantly,copytrade topwallets in realtime,and snipe new tokens the moment they launch.with this bot, you never miss an opportunity - fast, precise, and effortless trading all inside telegram",
+        "",
+        "Tap Start to open your wallet dashboard and main menu."
+      ].join("\n")
+    );
     return;
   }
 
-  await ctx.reply(walletMessage(user, created));
+  //await ctx.reply(walletMessage(user, created));
   await showMainMenu(ctx, "Choose an option:");
 }
 
